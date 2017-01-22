@@ -1,0 +1,46 @@
+header{
+    width: 100%;
+    background-color: #FFCCCC;
+    height: 75px;
+}
+
+header ul{
+    margin: 0 auto;
+    list-style: none;
+}
+
+header ul {
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+header li {
+    float: left;
+    width:auto;
+}
+
+header ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+  margin-bottom: 74px;
+  padding: 20px 20px 20px 35px;
+  .row {
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+}
+input[type="submit"].btn-block{
+  margin: 15px 0;
+}
+
+.container{
+  padding-bottom: 70px;
+}
