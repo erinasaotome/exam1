@@ -2,7 +2,7 @@
   <div class="wrapper col-md-8 col-md-offset-2 col-sm-10">
     <h1>ツイート一覧</h1>
       <%= link_to "ツイートを作成する", new_tweet_path, class: 'btn btn-default' %>
-    <% @tweets.each do |tweet| %>
+    <% @tweets.reverse_each do |tweet| %>
     <div class="row">
       <p><%= tweet.content %></p>
       <%= link_to "編集", edit_tweet_path(tweet.id), class: 'btn btn-default btn-sm btn-warning' %>
